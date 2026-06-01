@@ -28,7 +28,10 @@ advanced concepts
 * eigenspaces
 * diagonalization
 * SVD (singular value decomposition)
-* PCA (principal component analysis)
+   1.https://www.youtube.com/watch?v=mhy-ZKSARxI
+   2.https://www.youtube.com/watch?v=vSczTbgc8Rc
+  
+* PCA (principal component analysis) [ included in Machine learning Playlist by stat quest so do it later]
 * orthogonality
 * projections
 * orthonormal basis
@@ -36,18 +39,25 @@ advanced concepts
 techniques
 
 * feature scaling (normalization, standardization)
-* vectorization (replace loops with matrix ops)
+  1.https://www.youtube.com/watch?v=XdDNtNkLbhY
+  2.https://www.youtube.com/watch?v=sxEqtjLC0aM
+* vectorization (replace loops with matrix ops) [ using numpy for all math operation to override python interpreter overhead]
 * matrix factorization
 * dimensionality reduction
+    [Dimensionality Reduction in Machine Learning — Simplifying Complex Data for Better Insights](https://anilpise7.medium.com/dimensionality-reduction-in-machine-learning-simplifying-complex-data-for-better-insights-a2181c2b519b)
+  
 * similarity measures (cosine similarity, euclidean distance)
+[cosine simlirity short](https://www.youtube.com/shorts/rmNNK42Asd0)
 * gradient representation in matrix form
-* batching (data in matrix form)
+* batching (data in matrix form) [DEEP SEEK LINK](https://chat.deepseek.com/share/5qlixq0inxy7op92yy)
 
 libraries
 
 * numpy
 * pytorch
-* tensorflow
+* tensorflow	High	Fast but sharp	May overfit
+Full batch	Small datasets (< 10K)	Very high	Smooth, accurate	Guaranteed descent
+
 * jax
 * scipy
 
